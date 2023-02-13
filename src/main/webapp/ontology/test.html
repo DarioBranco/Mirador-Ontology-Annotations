@@ -1,0 +1,27 @@
+
+<head>
+    <link rel="stylesheet" href="dist/themes/proton/style.min.css" />  
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="treeArea">
+        <div class="select" name="ontology" id="ontologySelect">
+            <select>
+                <option value="cosme">Cosme Ontology</option>
+                <option value="ateneo">Ateneo Ontology</option>
+                <option value="second">Another Ontology</option>
+            </select>
+        </div>
+        <button class="button" id="ontologyButton" onclick="getOntology()">Cambia Ontologia</button>    
+        <div id="jstree_demo_div"></div>
+        <button class="button" onclick="window.opener.receiveResult(getSelected())">Salva concetti</button>
+    </div>
+	<div id="idshow">
+        <textarea id="values-textarea" class="textarea" cols="40" rows="20" readonly>
+            </textarea>
+    </div>
+</body>

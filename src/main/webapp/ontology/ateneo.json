@@ -1,0 +1,1199 @@
+{
+    "values": [
+        {
+            "id": "Elementi_Architettonici",
+            "text": "Elementi_Architettonici",
+            "children": [
+                {
+                    "id": "Acroterio",
+                    "text": "Acroterio"
+                },
+                {
+                    "id": "Antefissa",
+                    "text": "Antefissa"
+                },
+                {
+                    "id": "Architrave",
+                    "text": "Architrave"
+                },
+                {
+                    "id": "Archivolto",
+                    "text": "Archivolto"
+                },
+                {
+                    "id": "Base",
+                    "text": "Base"
+                },
+                {
+                    "id": "Capitello",
+                    "text": "Capitello"
+                },
+                {
+                    "id": "Chiave_di_Volta",
+                    "text": "Chiave_di_Volta"
+                },
+                {
+                    "id": "Colonna",
+                    "text": "Colonna"
+                },
+                {
+                    "id": "Cornice",
+                    "text": "Cornice"
+                },
+                {
+                    "id": "Fregio",
+                    "text": "Fregio"
+                },
+                {
+                    "id": "Frontone",
+                    "text": "Frontone"
+                },
+                {
+                    "id": "Fusto",
+                    "text": "Fusto"
+                },
+                {
+                    "id": "Gocciolatoio",
+                    "text": "Gocciolatoio"
+                },
+                {
+                    "id": "Imposta",
+                    "text": "Imposta"
+                },
+                {
+                    "id": "Lesena",
+                    "text": "Lesena"
+                },
+                {
+                    "id": "Mensola",
+                    "text": "Mensola"
+                },
+                {
+                    "id": "Piedistallo",
+                    "text": "Piedistallo"
+                },
+                {
+                    "id": "Pilastro",
+                    "text": "Pilastro"
+                },
+                {
+                    "id": "Protome",
+                    "text": "Protome"
+                },
+                {
+                    "id": "Rilievo",
+                    "text": "Rilievo"
+                },
+                {
+                    "id": "Soffitto",
+                    "text": "Soffitto"
+                },
+                {
+                    "id": "Soglia",
+                    "text": "Soglia"
+                },
+                {
+                    "id": "Timpano",
+                    "text": "Timpano"
+                },
+                {
+                    "id": "Trabeazione",
+                    "text": "Trabeazione"
+                },
+                {
+                    "id": "semicolonna",
+                    "text": "semicolonna"
+                }
+            ]
+        },
+        {
+            "id": "Rivestimenti",
+            "text": "Rivestimenti",
+            "children": [
+                {
+                    "id": "Affresco",
+                    "text": "Affresco"
+                },
+                {
+                    "id": "Rivest_Opus_sectile",
+                    "text": "Rivest_Opus_sectile"
+                },
+                {
+                    "id": "Stucchi",
+                    "text": "Stucchi"
+                }
+            ]
+        },
+        {
+            "id": "Parti_Domus",
+            "text": "Parti_Domus",
+            "children": [
+                {
+                    "id": "Ala",
+                    "text": "Ala"
+                },
+                {
+                    "id": "Atrium",
+                    "text": "Atrium"
+                },
+                {
+                    "id": "Cella_Domus",
+                    "text": "Cella_Domus"
+                },
+                {
+                    "id": "Cubiculum",
+                    "text": "Cubiculum"
+                },
+                {
+                    "id": "Culina",
+                    "text": "Culina"
+                },
+                {
+                    "id": "Hortus",
+                    "text": "Hortus"
+                },
+                {
+                    "id": "Impluvium",
+                    "text": "Impluvium"
+                },
+                {
+                    "id": "Scala",
+                    "text": "Scala"
+                },
+                {
+                    "id": "Tablinum",
+                    "text": "Tablinum"
+                },
+                {
+                    "id": "Triclinium",
+                    "text": "Triclinium"
+                },
+                {
+                    "id": "Vestibulum",
+                    "text": "Vestibulum"
+                }
+            ]
+        },
+        {
+            "id": "Parti_anfiteatro",
+            "text": "Parti_anfiteatro",
+            "children": [
+                {
+                    "id": "Ambulacri",
+                    "text": "Ambulacri"
+                },
+                {
+                    "id": "Area_di_rispetto",
+                    "text": "Area_di_rispetto"
+                },
+                {
+                    "id": "Arena",
+                    "text": "Arena"
+                },
+                {
+                    "id": "Cavea",
+                    "text": "Cavea"
+                },
+                {
+                    "id": "Ingressi",
+                    "text": "Ingressi"
+                },
+                {
+                    "id": "Prospetto_Esterno",
+                    "text": "Prospetto_Esterno"
+                },
+                {
+                    "id": "Recinzione",
+                    "text": "Recinzione"
+                },
+                {
+                    "id": "Sacello",
+                    "text": "Sacello"
+                },
+                {
+                    "id": "Sistema_idrico",
+                    "text": "Sistema_idrico"
+                },
+                {
+                    "id": "Sotterranei",
+                    "text": "Sotterranei"
+                },
+                {
+                    "id": "Velarium",
+                    "text": "Velarium"
+                }
+            ]
+        },
+        {
+            "id": "Edifici_da_spettacolo",
+            "text": "Edifici_da_spettacolo",
+            "children": [
+                {
+                    "id": "Anfiteatri",
+                    "text": "Anfiteatri"
+                },
+                {
+                    "id": "Circhi",
+                    "text": "Circhi"
+                },
+                {
+                    "id": "Ludus",
+                    "text": "Ludus"
+                },
+                {
+                    "id": "Odeon",
+                    "text": "Odeon"
+                },
+                {
+                    "id": "Stadio",
+                    "text": "Stadio"
+                },
+                {
+                    "id": "Teatri",
+                    "text": "Teatri"
+                }
+            ]
+        },
+        {
+            "id": "Fasi_Edifici",
+            "text": "Fasi_Edifici",
+            "children": [
+                {
+                    "id": "Anfiteatro_campano_fasi",
+                    "text": "Anfiteatro_campano_fasi"
+                },
+                {
+                    "id": "Diana_Tifatina_Fasi",
+                    "text": "Diana_Tifatina_Fasi"
+                }
+            ]
+        },
+        {
+            "id": "Motivi_iconografici",
+            "text": "Motivi_iconografici",
+            "children": [
+                {
+                    "id": "Animali",
+                    "text": "Animali"
+                },
+                {
+                    "id": "Divinita",
+                    "text": "Divinita"
+                },
+                {
+                    "id": "Figure_umane",
+                    "text": "Figure_umane"
+                },
+                {
+                    "id": "Monumenti",
+                    "text": "Monumenti"
+                },
+                {
+                    "id": "Personaggi_storici",
+                    "text": "Personaggi_storici"
+                },
+                {
+                    "id": "Scene_mitologiche",
+                    "text": "Scene_mitologiche"
+                },
+                {
+                    "id": "Scene_religiose",
+                    "text": "Scene_religiose"
+                },
+                {
+                    "id": "Scene_storiche",
+                    "text": "Scene_storiche"
+                }
+            ]
+        },
+        {
+            "id": "Prospetto_Esterno",
+            "text": "Prospetto_Esterno",
+            "children": [
+                {
+                    "id": "Arcate",
+                    "text": "Arcate",
+                    "children": [
+                        {
+                            "id": "Arcata_III_Piano",
+                            "text": "Arcata_III_Piano"
+                        },
+                        {
+                            "id": "Arcata_II_Piano",
+                            "text": "Arcata_II_Piano"
+                        },
+                        {
+                            "id": "Arcata_I_Piano",
+                            "text": "Arcata_I_Piano"
+                        }
+                    ]
+                },
+                {
+                    "id": "Attico",
+                    "text": "Attico"
+                },
+                {
+                    "id": "Avancorpi",
+                    "text": "Avancorpi"
+                }
+            ]
+        },
+        {
+            "id": "Beni_immobili",
+            "text": "Beni_immobili",
+            "children": [
+                {
+                    "id": "Attivita_produttive",
+                    "text": "Attivita_produttive"
+                },
+                {
+                    "id": "Centuriazione",
+                    "text": "Centuriazione"
+                },
+                {
+                    "id": "Edifici_sacri",
+                    "text": "Edifici_sacri"
+                },
+                {
+                    "id": "Edilizia_Privata",
+                    "text": "Edilizia_Privata"
+                },
+                {
+                    "id": "Edilizia_Pubblica",
+                    "text": "Edilizia_Pubblica"
+                },
+                {
+                    "id": "Insediamenti_Urbani",
+                    "text": "Insediamenti_Urbani"
+                },
+                {
+                    "id": "Irregimentazione_acque",
+                    "text": "Irregimentazione_acque"
+                },
+                {
+                    "id": "Opere_difensive",
+                    "text": "Opere_difensive"
+                },
+                {
+                    "id": "Sepolture",
+                    "text": "Sepolture"
+                },
+                {
+                    "id": "Terme",
+                    "text": "Terme"
+                },
+                {
+                    "id": "Viabilita",
+                    "text": "Viabilita"
+                }
+            ]
+        },
+        {
+            "id": "Podio_Cavea",
+            "text": "Podio_Cavea",
+            "children": [
+                {
+                    "id": "Balteus",
+                    "text": "Balteus"
+                },
+                {
+                    "id": "Muro_podio",
+                    "text": "Muro_podio"
+                },
+                {
+                    "id": "Porte_muro_podio",
+                    "text": "Porte_muro_podio"
+                },
+                {
+                    "id": "Retropodio",
+                    "text": "Retropodio"
+                },
+                {
+                    "id": "loca",
+                    "text": "loca"
+                }
+            ]
+        },
+        {
+            "id": "Beni",
+            "text": "Beni",
+            "children": [
+                {
+                    "id": "Beni_immobili",
+                    "text": "Beni_immobili"
+                },
+                {
+                    "id": "Reperti",
+                    "text": "Reperti"
+                }
+            ]
+        },
+        {
+            "id": "Storia",
+            "text": "Storia",
+            "children": [
+                {
+                    "id": "Bibliografia",
+                    "text": "Bibliografia"
+                },
+                {
+                    "id": "Curiosita",
+                    "text": "Curiosita"
+                },
+                {
+                    "id": "Fonti_antiche",
+                    "text": "Fonti_antiche"
+                },
+                {
+                    "id": "Istituzioni_politiche",
+                    "text": "Istituzioni_politiche"
+                },
+                {
+                    "id": "Personaggi",
+                    "text": "Personaggi"
+                },
+                {
+                    "id": "Personaggi_moderni",
+                    "text": "Personaggi_moderni"
+                },
+                {
+                    "id": "Rappresentazioni_sceniche",
+                    "text": "Rappresentazioni_sceniche"
+                },
+                {
+                    "id": "Religione",
+                    "text": "Religione"
+                },
+                {
+                    "id": "categorie_sociali",
+                    "text": "categorie_sociali"
+                },
+                {
+                    "id": "eventi",
+                    "text": "eventi"
+                }
+            ]
+        },
+        {
+            "id": "Arena",
+            "text": "Arena",
+            "children": [
+                {
+                    "id": "Botole",
+                    "text": "Botole"
+                },
+                {
+                    "id": "Piano_pavimentale",
+                    "text": "Piano_pavimentale"
+                }
+            ]
+        },
+        {
+            "id": "Parti_templi",
+            "text": "Parti_templi",
+            "children": [
+                {
+                    "id": "Cella",
+                    "text": "Cella"
+                },
+                {
+                    "id": "Pavimentazione",
+                    "text": "Pavimentazione"
+                },
+                {
+                    "id": "Peribolo",
+                    "text": "Peribolo"
+                },
+                {
+                    "id": "Peristilio",
+                    "text": "Peristilio"
+                },
+                {
+                    "id": "Podio",
+                    "text": "Podio"
+                },
+                {
+                    "id": "Pronao",
+                    "text": "Pronao"
+                },
+                {
+                    "id": "Rampa_accesso",
+                    "text": "Rampa_accesso"
+                },
+                {
+                    "id": "Stilobate",
+                    "text": "Stilobate"
+                },
+                {
+                    "id": "Temenos",
+                    "text": "Temenos"
+                },
+                {
+                    "id": "Tetto",
+                    "text": "Tetto"
+                }
+            ]
+        },
+        {
+            "id": "Cella",
+            "text": "Cella",
+            "children": [
+                {
+                    "id": "Cella_con_opistodomo",
+                    "text": "Cella_con_opistodomo"
+                },
+                {
+                    "id": "Cella_unica",
+                    "text": "Cella_unica"
+                }
+            ]
+        },
+        {
+            "id": "Reperti",
+            "text": "Reperti",
+            "children": [
+                {
+                    "id": "Decorazione_architettonica",
+                    "text": "Decorazione_architettonica"
+                },
+                {
+                    "id": "Epigrafi",
+                    "text": "Epigrafi"
+                },
+                {
+                    "id": "Monete",
+                    "text": "Monete"
+                },
+                {
+                    "id": "Musei",
+                    "text": "Musei"
+                },
+                {
+                    "id": "Suppellettile",
+                    "text": "Suppellettile"
+                }
+            ]
+        },
+        {
+            "id": "Edilizia_Privata",
+            "text": "Edilizia_Privata",
+            "children": [
+                {
+                    "id": "Domus",
+                    "text": "Domus"
+                }
+            ]
+        },
+        {
+            "id": "Edifici_sacri",
+            "text": "Edifici_sacri",
+            "children": [
+                {
+                    "id": "Edicole_votive",
+                    "text": "Edicole_votive"
+                },
+                {
+                    "id": "Santuari",
+                    "text": "Santuari"
+                },
+                {
+                    "id": "Templi",
+                    "text": "Templi"
+                }
+            ]
+        },
+        {
+            "id": "Edilizia_Pubblica",
+            "text": "Edilizia_Pubblica",
+            "children": [
+                {
+                    "id": "Edifici_da_spettacolo",
+                    "text": "Edifici_da_spettacolo"
+                },
+                {
+                    "id": "Edifici_pubblici",
+                    "text": "Edifici_pubblici"
+                }
+            ]
+        },
+        {
+            "id": "Epigrafi",
+            "text": "Epigrafi",
+            "children": [
+                {
+                    "id": "Epigrafi_tipologia",
+                    "text": "Epigrafi_tipologia",
+                    "children": [
+                        {
+                            "id": "Marchio_di_cava",
+                            "text": "Marchio_di_cava"
+                        },
+                        {
+                            "id": "celebrativa",
+                            "text": "celebrativa"
+                        },
+                        {
+                            "id": "commemorativa",
+                            "text": "commemorativa"
+                        },
+                        {
+                            "id": "funeraria",
+                            "text": "funeraria"
+                        },
+                        {
+                            "id": "itineraria",
+                            "text": "itineraria"
+                        },
+                        {
+                            "id": "marchio_di_fabbrica",
+                            "text": "marchio_di_fabbrica"
+                        },
+                        {
+                            "id": "onoraria",
+                            "text": "onoraria"
+                        },
+                        {
+                            "id": "sacra",
+                            "text": "sacra"
+                        },
+                        {
+                            "id": "segnaletica",
+                            "text": "segnaletica"
+                        },
+                        {
+                            "id": "sepolcrale",
+                            "text": "sepolcrale"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Thing",
+            "text": "Thing",
+            "children": [
+                {
+                    "id": "Fasi_storiche",
+                    "text": "Fasi_storiche"
+                },
+                {
+                    "id": "Lingua",
+                    "text": "Lingua"
+                }
+            ]
+        },
+        {
+            "id": "Ambulacri",
+            "text": "Ambulacri",
+            "children": [
+                {
+                    "id": "Fontane",
+                    "text": "Fontane"
+                },
+                {
+                    "id": "Scale",
+                    "text": "Scale"
+                }
+            ]
+        },
+        {
+            "id": "Personaggi",
+            "text": "Personaggi",
+            "children": [
+                {
+                    "id": "Imperatori_romani",
+                    "text": "Imperatori_romani",
+                    "children": [
+                        {
+                            "id": "Adriano",
+                            "text": "Adriano"
+                        },
+                        {
+                            "id": "Alssandro_Severo",
+                            "text": "Alssandro_Severo"
+                        },
+                        {
+                            "id": "Antonino_Pio",
+                            "text": "Antonino_Pio"
+                        },
+                        {
+                            "id": "Augusto",
+                            "text": "Augusto"
+                        },
+                        {
+                            "id": "Caligola",
+                            "text": "Caligola"
+                        },
+                        {
+                            "id": "Caracalla",
+                            "text": "Caracalla"
+                        },
+                        {
+                            "id": "Claudio",
+                            "text": "Claudio"
+                        },
+                        {
+                            "id": "Commodo",
+                            "text": "Commodo"
+                        },
+                        {
+                            "id": "Didio_Giuliano",
+                            "text": "Didio_Giuliano"
+                        },
+                        {
+                            "id": "Domiziano",
+                            "text": "Domiziano"
+                        },
+                        {
+                            "id": "Galba",
+                            "text": "Galba"
+                        },
+                        {
+                            "id": "Geta",
+                            "text": "Geta"
+                        },
+                        {
+                            "id": "Marco_Aurelio",
+                            "text": "Marco_Aurelio"
+                        },
+                        {
+                            "id": "Nerone",
+                            "text": "Nerone"
+                        },
+                        {
+                            "id": "Nerva",
+                            "text": "Nerva"
+                        },
+                        {
+                            "id": "Otone",
+                            "text": "Otone"
+                        },
+                        {
+                            "id": "Settimio_Severo",
+                            "text": "Settimio_Severo"
+                        },
+                        {
+                            "id": "Severo",
+                            "text": "Severo"
+                        },
+                        {
+                            "id": "Tiberio",
+                            "text": "Tiberio"
+                        },
+                        {
+                            "id": "Tito",
+                            "text": "Tito"
+                        },
+                        {
+                            "id": "Traiano",
+                            "text": "Traiano"
+                        },
+                        {
+                            "id": "Vespasiano",
+                            "text": "Vespasiano"
+                        },
+                        {
+                            "id": "Vitellio",
+                            "text": "Vitellio"
+                        }
+                    ]
+
+                },
+                {
+                    "id": "Personaggi_capuani",
+                    "text": "Personaggi_capuani",
+                    "children": [
+                        {
+                            "id": "Aurelio_Scauro",
+                            "text": "Aurelio_Scauro"
+                        },
+                        {
+                            "id": "Lentulo_Batiato",
+                            "text": "Lentulo_Batiato"
+                        },
+                        {
+                            "id": "P_Rutilio_Rufo",
+                            "text": "P_Rutilio_Rufo"
+                        },
+                        {
+                            "id": "Spartaco",
+                            "text": "Spartaco"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Materiali",
+            "text": "Materiali",
+            "children": [
+                {
+                    "id": "Metallo",
+                    "text": "Metallo"
+                },
+                {
+                    "id": "Pietra",
+                    "text": "Pietra"
+                }
+            ]
+        },
+        {
+            "id": "Tecniche_Edilizie",
+            "text": "Tecniche_Edilizie",
+            "children": [
+                {
+                    "id": "Murature",
+                    "text": "Murature"
+                },
+                {
+                    "id": "Pavimenti",
+                    "text": "Pavimenti"
+                },
+                {
+                    "id": "Rivestimenti",
+                    "text": "Rivestimenti"
+                }
+            ]
+        },
+        {
+            "id": "Parti_edifici",
+            "text": "Parti_edifici",
+            "children": [
+                {
+                    "id": "Parti_Domus",
+                    "text": "Parti_Domus"
+                },
+                {
+                    "id": "Parti_anfiteatro",
+                    "text": "Parti_anfiteatro"
+                },
+                {
+                    "id": "Parti_templi",
+                    "text": "Parti_templi"
+                }
+            ]
+        },
+        {
+            "id": "Pavimentazione",
+            "text": "Pavimentazione",
+            "children": [
+                {
+                    "id": "Pavimentazione_epoca_medievale",
+                    "text": "Pavimentazione_epoca_medievale"
+                },
+                {
+                    "id": "Pavimentazione_epoca_romana",
+                    "text": "Pavimentazione_epoca_romana"
+                }
+            ]
+        },
+        {
+            "id": "Cavea",
+            "text": "Cavea",
+            "children": [
+                {
+                    "id": "Podio_Cavea",
+                    "text": "Podio_Cavea"
+                },
+                {
+                    "id": "Porticus_summa_cavea",
+                    "text": "Porticus_summa_cavea"
+                },
+                {
+                    "id": "Precinzione",
+                    "text": "Precinzione"
+                },
+                {
+                    "id": "Tribuna",
+                    "text": "Tribuna"
+                },
+                {
+                    "id": "Vomitoria",
+                    "text": "Vomitoria"
+                },
+                {
+                    "id": "balaustre",
+                    "text": "balaustre"
+                },
+                {
+                    "id": "ima_cavea",
+                    "text": "ima_cavea"
+                },
+                {
+                    "id": "media_cavea",
+                    "text": "media_cavea"
+                },
+                {
+                    "id": "pulvinar",
+                    "text": "pulvinar"
+                },
+                {
+                    "id": "sedili",
+                    "text": "sedili"
+                },
+                {
+                    "id": "summa_cavea",
+                    "text": "summa_cavea"
+                }
+            ]
+        },
+        {
+            "id": "Viabilita",
+            "text": "Viabilita",
+            "children": [
+                {
+                    "id": "Ponti",
+                    "text": "Ponti"
+                },
+                {
+                    "id": "Vie",
+                    "text": "Vie"
+                }
+            ]
+        },
+        {
+            "id": "Edifici_pubblici",
+            "text": "Edifici_pubblici",
+            "children": [
+                {
+                    "id": "Schola",
+                    "text": "Schola"
+                }
+            ]
+        },
+        {
+            "id": "Sotterranei",
+            "text": "Sotterranei",
+            "children": [
+                {
+                    "id": "Sotterranei_ambienti",
+                    "text": "Sotterranei_ambienti"
+                },
+                {
+                    "id": "corridoi",
+                    "text": "corridoi"
+                }
+            ]
+        },
+        {
+            "id": "Tipologia_edifici",
+            "text": "Tipologia_edifici",
+            "children": [
+                {
+                    "id": "Tipologia_Porte",
+                    "text": "Tipologia_Porte",
+                    "children": [
+                        {
+                            "id": "Porta_tipo_a_corridoio",
+                            "text": "Porta_tipo_a_corridoio"
+                        },
+                        {
+                            "id": "Porta_tipo_sceo",
+                            "text": "Porta_tipo_sceo"
+                        }
+                    ]
+                },
+                {
+                    "id": "Tipologia_templi",
+                    "text": "Tipologia_templi",
+                    "children": [
+                        {
+                            "id": "Diptero",
+                            "text": "Diptero"
+                        },
+                        {
+                            "id": "In_antis",
+                            "text": "In_antis"
+                        },
+                        {
+                            "id": "In_doppio_antis",
+                            "text": "In_doppio_antis"
+                        },
+                        {
+                            "id": "Periptero_sine_postico",
+                            "text": "Periptero_sine_postico"
+                        },
+                        {
+                            "id": "Prostilo",
+                            "text": "Prostilo"
+                        },
+                        {
+                            "id": "Pseudodiptero",
+                            "text": "Pseudodiptero"
+                        },
+                        {
+                            "id": "Pseudoperiptero",
+                            "text": "Pseudoperiptero"
+                        },
+                        {
+                            "id": "Tholos",
+                            "text": "Tholos"
+                        },
+                        {
+                            "id": "anfiprostilo",
+                            "text": "anfiprostilo"
+                        },
+                        {
+                            "id": "periptero",
+                            "text": "periptero"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Rappresentazioni_sceniche",
+            "text": "Rappresentazioni_sceniche",
+            "children": [
+                {
+                    "id": "atletica",
+                    "text": "atletica"
+                },
+                {
+                    "id": "commedia",
+                    "text": "commedia"
+                },
+                {
+                    "id": "corse",
+                    "text": "corse"
+                },
+                {
+                    "id": "giochi_gladiatori",
+                    "text": "giochi_gladiatori"
+                },
+                {
+                    "id": "poesia",
+                    "text": "poesia"
+                },
+                {
+                    "id": "tragedia",
+                    "text": "tragedia"
+                }
+            ]
+        },
+        {
+            "id": "Sistema_idrico",
+            "text": "Sistema_idrico",
+            "children": [
+                {
+                    "id": "canali",
+                    "text": "canali"
+                },
+                {
+                    "id": "cisterne",
+                    "text": "cisterne"
+                },
+                {
+                    "id": "sistema_idrico_arena",
+                    "text": "sistema_idrico_arena"
+                },
+                {
+                    "id": "sistema_idrico_cavea",
+                    "text": "sistema_idrico_cavea"
+                },
+                {
+                    "id": "sistema_idrico_sotterranei",
+                    "text": "sistema_idrico_sotterranei"
+                }
+            ]
+        },
+        {
+            "id": "categorie_sociali",
+            "text": "categorie_sociali",
+            "children": [
+                {
+                    "id": "cavalieri",
+                    "text": "cavalieri"
+                },
+                {
+                    "id": "inservienti",
+                    "text": "inservienti"
+                },
+                {
+                    "id": "littori",
+                    "text": "littori"
+                },
+                {
+                    "id": "senatori",
+                    "text": "senatori"
+                }
+            ]
+        },
+        {
+            "id": "Religione",
+            "text": "Religione",
+            "children": [
+                {
+                    "id": "divinita",
+                    "text": "divinita",
+                    "children": [
+                        {
+                            "id": "Diana",
+                            "text": "Diana"
+                        },
+                        {
+                            "id": "Eracle",
+                            "text": "Eracle"
+                        },
+                        {
+                            "id": "Genius_loci",
+                            "text": "Genius_loci"
+                        },
+                        {
+                            "id": "Giove",
+                            "text": "Giove"
+                        },
+                        {
+                            "id": "Giunone",
+                            "text": "Giunone"
+                        },
+                        {
+                            "id": "Hermes",
+                            "text": "Hermes"
+                        },
+                        {
+                            "id": "Silvano",
+                            "text": "Silvano"
+                        },
+                        {
+                            "id": "Venere",
+                            "text": "Venere"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "giochi_gladiatori",
+            "text": "giochi_gladiatori",
+            "children": [
+                {
+                    "id": "gladiatori",
+                    "text": "gladiatori"
+                },
+                {
+                    "id": "munus",
+                    "text": "munus"
+                },
+                {
+                    "id": "pompa",
+                    "text": "pompa"
+                },
+                {
+                    "id": "venationes",
+                    "text": "venationes"
+                }
+            ]
+        },
+        {
+            "id": "Decorazione_architettonica",
+            "text": "Decorazione_architettonica",
+            "children": [
+                {
+                    "id": "rilievi",
+                    "text": "rilievi"
+                }
+            ]
+        }
+    ]
+}

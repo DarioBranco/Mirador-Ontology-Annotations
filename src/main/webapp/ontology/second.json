@@ -1,0 +1,36 @@
+  {
+    "values": [
+    {
+    "id": "Group 1",
+    "text": "Group 1",
+    "children": [{
+        "id": "Option 1.1",
+        "text": "Option 1.1"
+      },
+      {
+        "id": "Option 1.2",
+        "text": "Option 1.2"
+      }
+    ]
+  },
+  {
+    "id": "Group 2",
+    "text": "Group 2",
+    "children": [{
+        "id": "Subgroup 2.1",
+        "text": "Subgroup 2.1",
+        "children": [{
+            "id": "Option 2.1.1",
+            "text": "Option 2.1.1"
+          },
+          {
+            "id": "Option 2.1.2",
+            "text": "Option 2.1.2"
+          }
+        ]
+      }
+    ]
+  }
+]
+}
+

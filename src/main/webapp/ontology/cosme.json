@@ -1,0 +1,283 @@
+{
+    "values": [
+        {
+            "id": "DomainConcepts",
+            "text": "DomainConcepts",
+            "children": [
+                {
+                    "id": "AmministrazioneDiCasaRealeDomain",
+                    "text": "AmministrazioneDiCasaRealeDomain",
+                    "children": [
+                        {
+                            "id": "AmministrazioneDiCasaReale",
+                            "text": "AmministrazioneDiCasaReale"
+                        },
+                        {
+                            "id": "Bene",
+                            "text": "Bene"
+                        },
+                        {
+                            "id": "CaricaAmmistrativaDellaRealCorte",
+                            "text": "CaricaAmmistrativaDellaRealCorte"
+                        },
+                        {
+                            "id": "DipartimentoAmministrativo",
+                            "text": "DipartimentoAmministrativo"
+                        },
+                        {
+                            "id": "Esito",
+                            "text": "Esito"
+                        },
+                        {
+                            "id": "OrganoAmministrativo",
+                            "text": "OrganoAmministrativo"
+                        },
+                        {
+                            "id": "Rendita",
+                            "text": "Rendita"
+                        },
+                        {
+                            "id": "SettoreAmministrazione",
+                            "text": "SettoreAmministrazione"
+                        },
+                        {
+                            "id": "Spesa",
+                            "text": "Spesa"
+                        },
+                        {
+                            "id": "SubordinazioneUffici",
+                            "text": "SubordinazioneUffici"
+                        },
+                        {
+                            "id": "UfficioAmmistrativo",
+                            "text": "UfficioAmmistrativo"
+                        }
+                    ]
+                },
+                {
+                    "id": "GlobalDomain",
+                    "text": "GlobalDomain"
+                },
+                {
+                    "id": "NobiltaDomain",
+                    "text": "NobiltaDomain"
+                }
+            ]
+        },
+        {
+            "id": "Bene",
+            "text": "Bene",
+            "children": [
+                {
+                    "id": "Attivita",
+                    "text": "Attivita"
+                },
+                {
+                    "id": "BeneDelRegno",
+                    "text": "BeneDelRegno"
+                },
+                {
+                    "id": "BenePrivato",
+                    "text": "BenePrivato",
+                    "children": [
+                        {
+                            "id": "BenePatrimoniale",
+                            "text": "BenePatrimoniale"
+                        }
+                    ]
+                },
+                {
+                    "id": "Edificio",
+                    "text": "Edificio"
+                },
+                {
+                    "id": "Terreno",
+                    "text": "Terreno"
+                }
+            ]
+        },
+        {
+            "id": "CaricaAmmistrativaDellaRealCorte",
+            "text": "CaricaAmmistrativaDellaRealCorte",
+            "children": [
+                {
+                    "id": "SottoufficialeDellaRealCorte",
+            "text": "SottoufficialeDellaRealCorte",
+            "children": [
+                {
+                    "id": "AiutanteDiCamera",
+                    "text": "AiutanteDiCamera"
+                },
+                {
+                    "id": "AmministratoreDiSitoReale",
+                    "text": "AmministratoreDiSitoReale"
+                },
+                {
+                    "id": "Balestriere",
+                    "text": "Balestriere"
+                },
+                {
+                    "id": "Bibliotecario",
+                    "text": "Bibliotecario"
+                },
+                {
+                    "id": "ChirurgoDiCamera",
+                    "text": "ChirurgoDiCamera"
+                },
+                {
+                    "id": "Contador",
+                    "text": "Contador"
+                },
+                {
+                    "id": "MaggiordomoDiSettimana",
+                    "text": "MaggiordomoDiSettimana"
+                },
+                {
+                    "id": "MedicoDiCamera",
+                    "text": "MedicoDiCamera"
+                },
+                {
+                    "id": "Tesoriere",
+                    "text": "Tesoriere"
+                },
+                {
+                    "id": "Veedore",
+                    "text": "Veedore"
+                }
+            ]
+                },
+                {
+                    "id": "CapoDellaRealCorte",
+                    "text": "CapoDellaRealCorte",
+                    "children": [
+                        {
+                            "id": "CapitanoDelleRealiGuardieDelCorpo",
+                            "text": "CapitanoDelleRealiGuardieDelCorpo"
+                        },
+                        {
+                            "id": "CappellanoMaggiore",
+                            "text": "CappellanoMaggiore"
+                        },
+                        {
+                            "id": "CavallerizzoMaggiore",
+                            "text": "CavallerizzoMaggiore"
+                        },
+                        {
+                            "id": "MaggiordomoMaggioreSovrintendenteGenerale",
+                            "text": "MaggiordomoMaggioreSovrintendenteGenerale"
+                        },
+                        {
+                            "id": "Somigliere",
+                            "text": "Somigliere"
+                        }                        
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "OrganoAmministrativo",
+            "text": "OrganoAmministrativo",
+            "children": [
+                {
+                    "id": "ConsiglioDiCasaReale",
+                    "text": "ConsiglioDiCasaReale"
+                }
+            ]
+        },
+        {
+            "id": "NobiltaDomain",
+            "text": "NobiltaDomain",
+            "children": [
+                {
+                    "id": "Corte",
+                    "text": "Corte",
+                    "children": [
+                        {
+                            "id": "RealCorte",
+                            "text": "RealCorte"
+                        }
+                    ]
+                },
+                {
+                    "id": "TitoloNobiliare",
+                    "text": "TitoloNobiliare"
+                }
+            ]
+        },
+        {
+            "id": "GlobalDomain",
+            "text": "GlobalDomain",
+            "children": [
+                {
+                    "id": "LuogoGeografico",
+                    "text": "LuogoGeografico"
+                },
+                {
+                    "id": "Persona",
+                    "text": "Persona"
+                }
+            ]
+        },
+        {
+            "id": "Persona",
+            "text": "Persona",
+            "children": [
+                {
+                    "id": "Nobile",
+                    "text": "Nobile",
+                    "children": [
+                        
+                {
+                    "id": "Barone",
+                    "text": "Barone"
+                },
+                {
+                    "id": "Conte",
+                    "text": "Conte"
+                },
+                {
+                    "id": "Duca",
+                    "text": "Duca"
+                },
+                {
+                    "id": "Marchese",
+                    "text": "Marchese"
+                },
+                {
+                    "id": "Principe",
+                    "text": "Principe"
+                },
+                {
+                    "id": "Re",
+                    "text": "Re"
+                }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "UfficioAmmistrativo",
+            "text": "UfficioAmmistrativo",
+            "children": [
+                {
+                    "id": "RamiDiCasaReale",
+                    "text": "RamiDiCasaReale"
+                },
+                {
+                    "id": "UfficiDiCasaReale",
+                    "text": "UfficiDiCasaReale"
+                }
+            ]
+        },
+        {
+            "id": "BeneDelRegno",
+            "text": "BeneDelRegno",
+            "children": [
+                {
+                    "id": "RealPalazzo",
+                    "text": "RealPalazzo"
+                }
+            ]
+        }
+    ]
+}
