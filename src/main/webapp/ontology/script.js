@@ -5,50 +5,51 @@ function fetchJSONData(string) {
     var JSONPath = string + '.json'
     var fetchedData
     $.ajax({
-        dataType: "json", 
+        dataType: "json",
         url: JSONPath,
         async: false,
-        success: function(answer) {
-          fetchedData = answer
+        success: function (answer) {
+            fetchedData = answer
         },
-        error: function() {
-          console.log('Errore');
-          fetchedData = "null"
+        error: function () {
+            console.log('Errore');
+            fetchedData = "null"
         }
-      });
-      return fetchedData
+    });
+    return fetchedData
 }
 
 function buildTree() {
     var fetchedJSON = fetchJSONData('ateneo')
-    //console.log(fetchedJSON.values)
     $('#jstree_demo_div').jstree({
-        "core" : {
-            "multiple" : true,
-            "data" : fetchedJSON.values,
+        "core": {
+            "multiple": true,
+            "data": fetchedJSON.values,
             'themes': {
                 'name': 'proton',
                 'responsive': true
             }
         },
-        "plugins" : [ "themes", "checkbox", "ui", "types" ],
+        "plugins": ["themes", "checkbox", "ui", "types"],
+        "checkbox": {
+            "three_state": false,
+        }
     });
-    
+
     $('#jstree_demo_div').on('changed.jstree', function (e, data) {
         checked_ids = [];
         var selectedNodes = $('#jstree_demo_div').jstree("get_selected", true);
-        $.each(selectedNodes, function() {
+        $.each(selectedNodes, function () {
             checked_ids.push(this.id);
         });
-        //console.log(checked_ids);
         document.getElementById('values-textarea').value = checked_ids.join('\n');
-    });  
+    });
 }
 
-$(document).ready(()=> buildTree());
+$(document).ready(() => buildTree());
 
 function buttonClicked() {
-    
+
 }
 
 function getOntology() {
@@ -62,9 +63,10 @@ function getSelected() {
     try {
         alert("Concetti salvati correttamente")
         console.log(checked_ids)
+        window.close();
         return checked_ids
     }
-    catch(e) {
+    catch (e) {
         alert("Errore")
         console.log(e)
         return 0
