@@ -37595,7 +37595,7 @@ var paper = function (t, e) {
             });
 
             jQuery(selector + ' a.onto').on("click", function (event) {
-              ontologyPopup = window.open("ontology/test.html", 'Ontology', 'height = 500, width = 800');
+              ontologyPopup = window.open("ontology/test.html", 'Ontology', 'height = 500, width = 900');
               if (window.focus) {
                 ontologyPopup.focus()
               }
@@ -37788,7 +37788,7 @@ var paper = function (t, e) {
 
       jQuery(selector + ' a.onto').on("click", function (event) {
         event.preventDefault();
-        ontologyPopup = window.open("ontology/test.html", 'Ontology', 'height = 500, width = 800');
+        ontologyPopup = window.open("ontology/test.html", 'Ontology', 'height = 500, width = 900');
         if (window.focus) {
           ontologyPopup.focus()
         }
@@ -37990,7 +37990,7 @@ var paper = function (t, e) {
       '<div id="tags-viewer-{{windowId}}" class="tags-viewer">',
       '{{#each tags}}',
       '<span class="tag">{{this}}</span>',
-      '<!-- <span class="concept">{{this}}</span> -->',
+      '<!-- <span class="semantictag">{{this}}</span> -->',
       '{{/each}}',
       '</div>',
       '</div>',
@@ -38914,8 +38914,8 @@ var paper = function (t, e) {
       jQuery.each(overlay.draftPaths, function (index, path) {
         // getSVGString expects an array, so insert each path into a new array
         var svg = overlay.getSVGString([path]),
-          bounds = path.bounds;
-        svg = modifySvg(svg)
+          svg = modifySvg(svg)
+        bounds = path.bounds;
         oaAnno.on.push({
           "@type": "oa:SpecificResource",
           "full": win.canvasID,
@@ -42350,8 +42350,8 @@ var paper = function (t, e) {
         on;
 
       //console.log(ontologyTags)
-      tags = tags.concat(ontologyTags)
-      if (tags && tags.length > 0) {
+      //tags = tags.concat(ontologyTags)
+      if ((tags && tags.length > 0) || (ontologyTags && ontologyTags.length)) {
         motivation.push("oa:tagging");
         jQuery.each(tags, function (index, value) {
           resource.push({
@@ -42359,16 +42359,14 @@ var paper = function (t, e) {
             "chars": value
           });
         });
-      }
-      /*if (ontologyTags && ontologyTags.length > 0) {
-        motivation.push("oa:tagging");
-        jQuery.each(ontologyTags, function(index, value) {
+        jQuery.each(ontologyTags, function (index, value) {
           resource.push({
-            "@type": "oa:Concept",
-            "chars": value
+            "@type": "oa:Tag",
+            "chars": value,
+            //"label": "semantic"
           });
         });
-      }*/
+      }
       motivation.push("oa:commenting");
       resource.push({
         "@type": "dctypes:Text",
@@ -42402,7 +42400,7 @@ var paper = function (t, e) {
       selectedTags = Array.from(updatedTags)
       console.log(selectedTags)
       //re-add tagging if we have them
-      if (selectedTags.length > 0) {
+      if (selectedTags.length > 0 || ontologyTags.length > 0) {
         oaAnno.motivation.push("oa:tagging");
         jQuery.each(selectedTags, function (index, value) {
           oaAnno.resource.push({
