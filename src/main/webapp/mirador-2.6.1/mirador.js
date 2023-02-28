@@ -42363,7 +42363,6 @@ var paper = function (t, e) {
           resource.push({
             "@type": "oa:Tag",
             "chars": value,
-            //"label": "semantic"
           });
         });
       }
