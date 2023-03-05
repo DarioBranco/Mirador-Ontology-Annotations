@@ -37595,7 +37595,7 @@ var paper = function (t, e) {
             });
 
             jQuery(selector + ' a.onto').on("click", function (event) {
-              ontologyPopup = window.open("ontology/test.html", 'Ontology', 'height = 500, width = 900');
+              ontologyPopup = window.open("ontology/test.html", 'Ontology', 'height = 500, width = 1100');
               if (window.focus) {
                 ontologyPopup.focus()
               }
@@ -37788,7 +37788,7 @@ var paper = function (t, e) {
 
       jQuery(selector + ' a.onto').on("click", function (event) {
         event.preventDefault();
-        ontologyPopup = window.open("ontology/test.html", 'Ontology', 'height = 500, width = 900');
+        ontologyPopup = window.open("ontology/test.html", 'Ontology', 'height = 500, width = 1100');
         if (window.focus) {
           ontologyPopup.focus()
         }
