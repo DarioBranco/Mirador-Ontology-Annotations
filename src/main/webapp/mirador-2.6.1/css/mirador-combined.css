@@ -1726,6 +1726,7 @@ See http://bgrins.github.io/spectrum/themes/ for instructions.
   text-align: right;
 }
 
+.mirador-container .annotation-tooltip .map,
 .mirador-container .annotation-tooltip .onto,
 .mirador-container .annotation-tooltip .save,
 .mirador-container .annotation-tooltip .cancel {

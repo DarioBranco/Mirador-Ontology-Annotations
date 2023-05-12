@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>OSM and Leaflet</title>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+</head>
+
+<body>
+    <button onclick="savePosition()">Conferma posizione</button>
+    </div>
+    <div id="map" style="width: 500px; height: 500px"></div>
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script>
+        // Creating map options
+        var mapOptions = {
+            center: [41.902782, 12.496366],
+            zoom: 10
+        }
+
+        // Creating a map object
+        var map = new L.map('map', mapOptions);
+
+        // Creating a Layer object
+        var layer = new L.TileLayer(`http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png`);
+
+        // Adding layer to the map
+
+
+        map.addLayer(layer);
+         var marker = L.marker([41.902782, 12.496366], { draggable: true }).addTo(map); 
+         marker.on("dragend", function (e) { 
+            console.log("Marker dragged to", e.target.getLatLng());
+         });
+
+        // Listening for the "message" event from the position picker popup
+        function savePosition() { 
+            var position = marker.getLatLng(); 
+            window.opener.postMessage({ latitude: position.lat, longitude: position.lng }, "*"); 
+            window.close(); 
+        }
+    </script>
+</body>
+
+</html>

@@ -24,7 +24,7 @@ function fetchJSONData(string) {
 }
 
 var ontologyTags = []
-
+var geoposition = []
 function receiveResult(result) {
   //console.log(result);
   ontologyTags = result;
@@ -37602,6 +37602,24 @@ var paper = function (t, e) {
               return false;
             });
 
+            jQuery(selector + ' a.map').on("click", function (event) {
+              mapPopup = window.open("ontology/test2.html", 'Map', 'height = 500, width = 1100');
+              if (window.focus) {
+                mapPopup.focus()
+              }
+              //get returned postmessage
+
+              window.addEventListener('message', function (event) {
+                if (event.origin !== 'http://localhost:8888') {
+                  return;
+                }
+                //console.log(event.data);
+                //var data = JSON.parse(event.data);
+                geoposition['latitude'] = event.data['latitude'];
+                geoposition['longitude'] = event.data['longitude'];
+              return false;
+              }, false);
+            });
 
 
 
@@ -37795,6 +37813,14 @@ var paper = function (t, e) {
         return false;
       });
 
+      jQuery(selector + ' a.map').on("click", function (event) {
+        mapPopup = window.open("ontology/test2.html", 'Map', 'height = 500, width = 1100');
+        if (window.focus) {
+          mapPopup.focus()
+        }
+        return false;
+      });
+
 
       jQuery(selector + ' a.cancel').on("click", function (event) {
         event.preventDefault();
@@ -37967,6 +37993,7 @@ var paper = function (t, e) {
       '<div>',
       // need to add a delete, if permissions allow
       '<div class="button-container">',
+      '<a href="#map" class="map"><i class="fa fa-times-circle-o fa-fw"></i>{{t "Georeference"}}</a>',
       '<a href="#onto" class="onto"><i class="fa fa-times-circle-o fa-fw"></i>{{t "Ontology"}}</a>',
       '<a href="#cancel" class="cancel"><i class="fa fa-times-circle-o fa-fw"></i>{{t "cancel"}}</a>',
       '<a href="#save" class="save"><i class="fa fa-database fa-fw"></i>{{t "save"}}</a>',
@@ -42366,6 +42393,23 @@ var paper = function (t, e) {
           });
         });
       }
+      console.log(geoposition);
+      if(geoposition){
+        console.log(geoposition);
+        //convert geoposition['latitude'] to string
+
+
+        motivation.push("oa:tagging");
+        resource.push({
+            "@type": "oa:Latitude",
+            "chars": geoposition['latitude'].toString(),
+        });
+        resource.push({
+          "@type": "oa:Longitude",
+          "chars": geoposition['longitude'].toString(),
+      });
+      }
+
       motivation.push("oa:commenting");
       resource.push({
         "@type": "dctypes:Text",
